@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+.main {
+  display: flex;
+  margin: 48px;
+}
+
+.sidebar {
+  width: 25%;
+  margin-right: 36px;
+}
+
+.section {
+  width: 75%;
+}
+
+.sort-container {
+  margin-bottom: 36px;
+}
+
+.sort-container label {
+  margin-right: 8px;
+}
+
+.sort-container select {
+  width: 200px;
+}
+
+.filters-container {
+  padding: 24px;
+  position: relative;
+  border: 2px solid #333333;
+  border-radius: 4px;
+}
+
+.filters-container h3 {
+  font-size: 16px;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  position: absolute;
+  top: -12px;
+  background-color: #FFFFFF;
+}
+
+.checkbox-container {
+  margin-bottom: 8px;
+}
+
+.checkbox-container input {
+  margin-right: 4px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table th {
+  padding: 8px;
+  border-bottom: 2px solid #333333;
+  text-align: left;
+}
+
+.table th:first-child{
+  width: 10%;
+}
+
+.table th:nth-child(2){
+  width: 35%;
+}
+
+.table th:nth-child(3){
+  width: 35%;
+}
+
+.table th:last-child{
+  width: 20%;
+  text-align: right;
+}
+
+.table tr td {
+  text-align: left;
+}
+
+.table td {
+  padding: 8px 0;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.table td:first-child {
+  padding-left: 8px;
+}
+
+.table tr td:last-child {
+  text-align: right;
+}
